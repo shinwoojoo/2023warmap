@@ -1,10 +1,10 @@
 ul {
   list-style: none;
-  margin: 30px; /* 메뉴와 화면의 여백을 조정합니다 */
+  margin: 20px; /* 메뉴와 화면의 여백을 조정합니다 */
   padding: 0;
   background-color: #333;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* 메뉴를 간격 없이 붙입니다 */
   align-items: center;
   position: fixed;
   top: 0;
@@ -13,9 +13,9 @@ ul {
 }
 
 li {
-  width: 20%; /* 메뉴 아이템의 너비를 조정합니다 */
-  height: 60px; /* 메뉴 아이템의 높이를 조정합니다 */
-  padding: 10px 15px; /* 메뉴 텍스트의 여백을 조정합니다 */
+  width: 15%;
+  height: 40px;
+  padding: 5px 10px;
   color: black;
   cursor: pointer;
   transition: background-color 0.3s;
